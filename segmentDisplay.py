@@ -1,6 +1,6 @@
 import smbus
 
-class segmentDisplay(:
+class segmentDisplay:
 
         def __init__(self,i2caddr):
           self.bus = smbus.SMBus(1)
